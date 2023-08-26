@@ -105,14 +105,30 @@ h2{
 }
 @keyframes js-fill {
     100%{
-        width: 82%;
+        width: 50%;
     }
 }
-#jQuery-bar{
-    animation: jQuery-fill 2s forwards;
+#java-bar{
+    animation: java-fill 2s forwards;
 }
-@keyframes jQuery-fill{
+@keyframes java-fill{
     100%{
-        width: 68%;
+        width: 60%;
+    }
+}
+#python-bar{
+    animation: python-fill 2s forwards;
+}
+@keyframes python-fill{
+    100%{
+        width: 70%;
+    }
+}
+#c-bar{
+    animation: c-fill 2s forwards;
+}
+@keyframes c-fill{
+    100%{
+        width: 75%;
     }
 }
